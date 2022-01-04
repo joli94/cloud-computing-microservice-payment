@@ -25,6 +25,9 @@ public class Payment {
     @Column(name = "diet_id")
     private Long dietId;
 
+    @Column(name = "diet_name")
+    private String dietName;
+
     @Column(name = "paymeny_date")
     private LocalDateTime time;
 

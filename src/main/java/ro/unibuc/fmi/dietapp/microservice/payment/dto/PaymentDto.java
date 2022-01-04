@@ -15,6 +15,7 @@ public class PaymentDto {
 
     private Long userId;
     private Long dietId;
+    private String dietName;
 
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private LocalDateTime time;
